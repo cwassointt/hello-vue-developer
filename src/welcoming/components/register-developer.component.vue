@@ -24,7 +24,6 @@ export default {
     <h2>New Developer</h2>
     <div>
       <form @submit.prevent="onSubmit">
-
       <div>
         <label for="firstName">First Name</label>
         <input type="text" id="firstName" v-model="firstName" required/>
