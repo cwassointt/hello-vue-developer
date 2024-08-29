@@ -1,6 +1,6 @@
 <script>
 export default {
-  name: "show-developer-count"
+  name: "show-developer-count",
   props: {
     developerCount: {
       type: Number,
